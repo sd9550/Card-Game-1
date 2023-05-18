@@ -1,0 +1,45 @@
+body {
+    background-color: green;
+}
+
+h1 {
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 3rem;
+}
+
+h2 {
+    color: white;
+    font-family: 'Press Start 2P';
+    
+}
+
+p {
+    color: blue;
+    font-family: 'Press Start 2P';
+    padding: 4px;
+}
+
+p.titles {
+    text-align: center;
+    opacity: 0;
+}
+
+h2.counter {
+    opacity: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+    border: none;
+}
+
+.player-box, .enemy-box {
+    display: inline-block;
+    width: 370px;
+    height: 600px;
+    border: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
